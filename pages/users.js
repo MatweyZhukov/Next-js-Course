@@ -3,12 +3,12 @@ import LinkComponent from "../components/LinkComponent";
 import MainContainer from "../components/MainContainer";
 
 //Styles
-import usersStyles from "../styles/Users.module.scss";
+import styles from "../styles/Users.module.scss";
 
 const users = ({ users }) => {
   return (
     <MainContainer keywords={"users page"}>
-      <div className={usersStyles.users}>
+      <div className={styles.users}>
         <h1>Users List</h1>
         <ul>
           {users.map((user) => (
