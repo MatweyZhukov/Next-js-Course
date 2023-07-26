@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import MainContainer from "../../components/MainContainer";
 
 //Styles
-import styles from "../../styles/User.module.scss";
+import styles from "../../styles/user.module.scss";
 
 export default function User({ user }) {
   const { query } = useRouter();

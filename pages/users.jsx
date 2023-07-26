@@ -3,7 +3,7 @@ import LinkComponent from "../components/LinkComponent";
 import MainContainer from "../components/MainContainer";
 
 //Styles
-import styles from "../styles/Users.module.scss";
+import styles from "../styles/users.module.scss";
 
 const users = ({ users }) => {
   return (
